@@ -21,6 +21,7 @@ public class MongodbDemoApplicationTests {
 
     @Test
     public void test() throws FileNotFoundException {
+        //test
         File file = new File("E:\\picture\\业务理解记录-测试数据.txt");
         String id = mongoGridFsServer.saveFile(file);
         System.out.println(id);
